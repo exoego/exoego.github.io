@@ -1,52 +1,78 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-    <meta http-equiv="Content-Script-Type" content="text/javascript" />
-    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta charset="UTF-8">
     <title>exoego</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        body {
+            background: #f2f2f2;
+            color: #4f4f4f;
+        }
+        body > section {
+            width: 80%;
+            max-width:40em;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 1em;
+        }
+        h2 {
+            font-size:2.5em;
+            display: inline-block;
+            border-bottom: 3px solid #bbb;
+            margin: 30px 0 0;
+            padding: 0;
+
+        }
+        ul.fa-ul {
+            margin:0.25em 0 !important;
+            font-size:1.5em !important;
+        }
+        ul.fa-ul li {
+            margin-top: 0.4em;
+        }
+        a:link {
+            color: #126F94;
+            text-decoration: none;
+        }
+        a:visited {
+            color:#4A1243;
+        }
+        a:hover, a:active {
+            color: #1791C2;
+            text-decoration: underline;
+            text-decoration-color: #bbb;
+        }
+
+    </style>
 </head>
-<body class="home">
-<div class="section" id="whole">
-    <h1>exoego.net</h1>
+<body>
 
-    <div class="section" id="author_profile">
-        <h2>Author</h2>
-        <dl class="vcard">
-            <dt><span class="nickname">smogami</span></dt>
-            <dd>名古屋で働くITエンジニア。</dd>
-            <dd>
-				<ul>
-					<li><a href="http://blog.exoego.net/">Blog</a> …めったに更新しないブログです。</li>
-					<li><a href="https://twitter.com/smogami">Twitter</a> …日常のつぶやき。</li>
-					<li><a href="https://twitter.com/smogami">Speakderdeck</a> …勉強会などで発表したスライド。</li>
-					<li><a href="https://github.com/exoego/">Github</a> …趣味で開発したライブラリや勉強用コードなど。</li>
-					<li><a href="http://userscripts.org/users/smogami">UserScripts.org</a> …趣味で開発した、ブラウザをちょっと便利にするスクリプト。</li>
-                </ul>
-            </dd>
-        </dl>
-    </div>
+<section>
+    <h1>exoego by mogami</h1>
 
-    <div class="section" id="archives">
-        <h2>Archives</h2>
-        <dl>
-            <dt><a href="/archives/zencoding-in-hidemaru">秀丸マクロでZen-Coding</a> (2010-08-20更新)</dt>
-            <dd>簡単な記法からHTMLやCSSのソースを高速に生成するコーディング支援ツール Zen-Coding の秀丸マクロ版。</dd>
-        </dl>
-    </div>
-
-    <address><a href="m&#97;&#105;&#108;t&#111;&#58;m&#111;g&#97;&#109;&#105;&#64;e&#120;&#111;&#101;&#103;o&#46;ne&#116;">m&#111;g&#97;&#109;&#105;&#64;e&#120;&#111;&#101;&#103;o&#46;ne&#116;</a></address>
-</div>
+    <section>
+        <h2>Find me</h2>
+        <ul class="fa-ul fa-2x">
+            <li><i class="fa-li fa fa-pencil" aria-hidden="true"></i><a href="http://blog.exoego.net/">I am Programmer and Proud</a> <small>(personal blog)</small></li>
+            <li><i class="fa-li fa fa-twitter" aria-hidden="true"></i><a href="https://twitter.com/smogami">Twitter</a></li>
+            <li><i class="fa-li fa fa-github" aria-hidden="true"></i><a href="https://github.com/exoego/">Github</a></li>
+            <li><a href="https://speakerdeck.com/exoego">SpeakerDeck</a></li>
+            <li><a href="https://connpass.com/user/smogami/">Connpass</a></li>
+        </ul>
+    </section>
+</section>
 
 <script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-7673851-1']);
-_gaq.push(['_trackPageview']);
-(function(doc){
-var ga=doc.createElement('script');ga.type='text/javascript';ga.async=true;
-ga.src='http://www.google-analytics.com/ga.js';
-doc.getElementsByTagName('head')[0].appendChild(ga);
-})(document);
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-7673851-1']);
+    _gaq.push(['_trackPageview']);
+    (function(doc){
+        var ga=doc.createElement('script');ga.type='text/javascript';ga.async=true;
+        ga.src='http://www.google-analytics.com/ga.js';
+        doc.getElementsByTagName('head')[0].appendChild(ga);
+    })(document);
 </script>
 </body>
 </html>
